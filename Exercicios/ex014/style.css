@@ -1,0 +1,15 @@
+body {
+    background-color: mediumslateblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1 {
+    color: darkgray;
+    background-color: dimgray;
+}
+h2 {
+    color: cadetblue;
+}
+p {
+    text-align: justify;
+}

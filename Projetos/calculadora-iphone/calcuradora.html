@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcuradora</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .fundo{
+            background-color: black;
+            height: 100vh;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .calculadora{
+            position: absolute;
+            background-color: black;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 15px;
+            padding: 15px;
+        }
+        .bg-darkgray{
+            height: 70px;
+            width: 70px;
+            font-size: 35px;
+            cursor: pointer;
+            background-color: rgb(165, 165, 165);
+            border: none;
+            border-radius: 50%;
+            margin: 5px;
+        }
+        .bg-darkgray:hover{
+            background-color: rgb(221, 221, 221);
+        }
+        .bg-gray{
+            height: 70px;
+            width: 70px;
+            font-size: 35px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(52, 52, 52);
+            border: none;
+            border-radius: 50%;
+            margin: 5px;
+        }
+        .bg-gray:hover{
+            background-color: rgb(100, 100, 100);
+        }
+        .bg-orange{
+            height: 70px;
+            width: 70px;
+            font-size: 35px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(255, 159, 10);
+            border: none;
+            border-radius: 50%;
+            margin: 5px;
+        }
+        .bg-orange:hover{
+            background-color: rgb(255, 200, 119);
+        }
+       img{
+        height: 50px;
+        width: 50px;
+       }
+       #resultado{
+        height: 100px;
+        width: 207px;
+        background-color: black;
+        color: white;
+        font-size: 35px;
+        text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <h1>CALCULADORA IPHONE</h1>
+        <img src="apple-4.png" alt="Logo Apple">
+        <div class="calculadora">
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="bg-darkgray">AC</td>
+                    <td><button class="bg-darkgray">+/-</td>
+                    <td><button class="bg-darkgray">%</td>
+                    <td><button class="bg-orange">/</td>
+                </tr>
+                <tr>
+                    <td><button class="bg-gray">7</td>
+                    <td><button class="bg-gray">8</td>
+                    <td><button class="bg-gray">9</td>
+                    <td><button class="bg-orange">X</td>
+                </tr>
+                <tr>
+                    <td><button class="bg-gray">4</td>
+                    <td><button class="bg-gray">5</td>
+                    <td><button class="bg-gray">6</td>
+                    <td><button class="bg-orange">-</td>
+                </tr>
+                <tr>
+                    <td><button class="bg-gray">1</td>
+                    <td><button class="bg-gray">2</td>
+                    <td><button class="bg-gray">3</td>
+                    <td><button class="bg-orange">+</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="bg-gray" style="width: 152px; border-radius: 25%;">0</td>
+                    <td><button class="bg-gray">,</td>
+                    <td><button class="bg-orange">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
