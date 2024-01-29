@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site Responsivo</h1>
+        <span id="button" class="material-symbols-outlined" onclick="clickMenu()">list</span>
+        <nav id="lista">
+            <ul>
+                <a href="#"><li>Opção 1</li></a>
+                <a href="#"><li>Opção 2</li></a>
+                <a href="#"><li>Opção 3</li></a>
+                <a href="#"><li>Opção 4</li></a>
+                <a href="#"><li>Opção 5</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Medias Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dicta voluptates tempora et adipisci ipsa neque commodi esse quis, eveniet illo quasi vero consequatur est ex amet! Blanditiis, minima. Officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magnam distinctio animi commodi unde possimus blanditiis recusandae molestias quae aspernatur fuga nesciunt, dolorum beatae! Enim pariatur dolores nesciunt quo omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae blanditiis corrupti quisquam dignissimos quo inventore aliquid ratione. Obcaecati omnis hic quia dolor dolorum tenetur officia quisquam praesentium, ullam rerum?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, et repellat. Earum voluptatem porro, exercitationem illum officia saepe maiores a mollitia distinctio inventore sequi rerum quaerat facilis, commodi, pariatur consectetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ut optio sint ad officia saepe fugiat aliquid vero perspiciatis illum? Possimus reprehenderit iste doloremque suscipit quis qui quo, exercitationem aperiam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quasi? Quos pariatur culpa neque! Perspiciatis iste nostrum quaerat architecto quis perferendis ullam laborum, velit dolore molestiae at itaque, earum reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis excepturi numquam, dolore iure repellendus et explicabo, autem amet error molestiae atque eligendi tempore voluptatem, nobis dolor quidem dolorum enim provident?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (lista.style.display == 'block') {
+                lista.style.display = 'none'
+            } else {
+                lista.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
