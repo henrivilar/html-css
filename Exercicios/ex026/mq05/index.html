@@ -6,8 +6,9 @@
     <title>Site Responsivo</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site Responsivo</h1>
         <span id="button" class="material-symbols-outlined" onclick="clickMenu()">list</span>
@@ -30,6 +31,15 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                lista.style.display = 'block'
+            } else {
+                lista.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (lista.style.display == 'block') {
                 lista.style.display = 'none'

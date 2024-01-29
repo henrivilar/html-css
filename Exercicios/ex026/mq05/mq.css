@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+    #button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        display: inline-block;
+        width: 100px;
+        border: none;
+    }
+
+    main {
+        width: 600px;
+    }
+}
