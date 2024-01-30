@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7839F4;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+div#image {
+    display: block;
+    text-align: center;
+}
+
+div#image img {
+    width: 150px;
+}
+
+div#formulario {
+    display: block;
+}
+
+main h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+p#email {
+    background-color: #7839F4;
+    border-radius: 8px;
+}
+
+p#password {
+    background-color: #7839F4;
+    border-radius: 8px;
+}
+
+p#bottons {
+    display: block;
+}
